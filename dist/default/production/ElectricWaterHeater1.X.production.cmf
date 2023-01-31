@@ -1,0 +1,993 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+reset_vec CODE 0 0 0 3 2
+end_init CODE 0 12 12 3 2
+config CONFIG 0 2007 2007 1 2
+$dist/default/production\ElectricWaterHeater1.X.production.obj
+cinit CODE 0 15 15 20 2
+text1 CODE 0 E99 E99 8 2
+text2 CODE 0 617 617 5A 2
+text3 CODE 0 760 760 49 2
+text4 CODE 0 7A9 7A9 3F 2
+text5 CODE 0 EDD EDD 10 2
+text6 CODE 0 ECD ECD 10 2
+text7 CODE 0 6C6 6C6 4D 2
+text8 CODE 0 EA1 EA1 9 2
+text9 CODE 0 EC0 EC0 D 2
+text10 CODE 0 4D1 4D1 7D 2
+text11 CODE 0 7E8 7E8 18 2
+text12 CODE 0 2B8 2B8 D3 2
+text13 CODE 0 EB4 EB4 C 2
+text14 CODE 0 671 671 55 2
+text15 CODE 0 FC7 FC7 39 2
+text16 CODE 0 713 713 4D 2
+text17 CODE 0 5BC 5BC 5B 2
+text18 CODE 0 17C 17C 13C 2
+text19 CODE 0 F67 F67 2F 2
+text20 CODE 0 443 443 8E 2
+text21 CODE 0 38B 38B B8 2
+text22 CODE 0 54E 54E 6E 2
+text23 CODE 0 EAA EAA A 2
+text24 CODE 0 F96 F96 31 2
+text25 CODE 0 EED EED 19 2
+text26 CODE 0 F21 F21 1C 2
+text27 CODE 0 E95 E95 4 2
+text28 CODE 0 F06 F06 1B 2
+text29 CODE 0 F3D F3D 2A 2
+nvBANK1 BANK1 1 D3 D3 1 1
+maintext CODE 0 35 35 147 2
+cstackCOMMON COMMON 1 70 70 7 1
+cstackBANK0 BANK0 1 20 20 3E 1
+cstackBANK1 BANK1 1 A0 A0 31 1
+intentry CODE 0 4 4 E 2
+bssBANK0 BANK0 1 5E 5E F 1
+bssBANK1 BANK1 1 D1 D1 2 1
+idataBANK0 CODE 0 3 3 1 2
+dataBANK0 BANK0 1 6D 6D 1 1
+bssCOMMON COMMON 1 77 77 3 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6E-6F 1
+RAM D4-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 6E-6F 1
+BANK1 D4-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 800-E94 2
+CONST 1000-1FFF 2
+ENTRY 800-E94 2
+ENTRY 1000-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 800-E94 2
+CODE 1000-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 7A-7D 1
+EEDATA 2100-21FF 2
+STRCODE 800-E94 2
+STRCODE 1000-1FFF 2
+STRING 800-E94 2
+STRING 1000-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\ElectricWaterHeater1.X.production.obj
+15 cinit CODE >1106:C:\Users\bedoa\AppData\Local\Temp\s3co.
+15 cinit CODE >1109:C:\Users\bedoa\AppData\Local\Temp\s3co.
+15 cinit CODE >1168:C:\Users\bedoa\AppData\Local\Temp\s3co.
+18 cinit CODE >1169:C:\Users\bedoa\AppData\Local\Temp\s3co.
+19 cinit CODE >1173:C:\Users\bedoa\AppData\Local\Temp\s3co.
+1A cinit CODE >1174:C:\Users\bedoa\AppData\Local\Temp\s3co.
+1B cinit CODE >1175:C:\Users\bedoa\AppData\Local\Temp\s3co.
+1C cinit CODE >1176:C:\Users\bedoa\AppData\Local\Temp\s3co.
+1D cinit CODE >1179:C:\Users\bedoa\AppData\Local\Temp\s3co.
+1E cinit CODE >1180:C:\Users\bedoa\AppData\Local\Temp\s3co.
+1F cinit CODE >1181:C:\Users\bedoa\AppData\Local\Temp\s3co.
+20 cinit CODE >1182:C:\Users\bedoa\AppData\Local\Temp\s3co.
+21 cinit CODE >1183:C:\Users\bedoa\AppData\Local\Temp\s3co.
+22 cinit CODE >1184:C:\Users\bedoa\AppData\Local\Temp\s3co.
+23 cinit CODE >1185:C:\Users\bedoa\AppData\Local\Temp\s3co.
+24 cinit CODE >1186:C:\Users\bedoa\AppData\Local\Temp\s3co.
+25 cinit CODE >1187:C:\Users\bedoa\AppData\Local\Temp\s3co.
+26 cinit CODE >1188:C:\Users\bedoa\AppData\Local\Temp\s3co.
+27 cinit CODE >1189:C:\Users\bedoa\AppData\Local\Temp\s3co.
+28 cinit CODE >1190:C:\Users\bedoa\AppData\Local\Temp\s3co.
+29 cinit CODE >1191:C:\Users\bedoa\AppData\Local\Temp\s3co.
+2A cinit CODE >1192:C:\Users\bedoa\AppData\Local\Temp\s3co.
+2B cinit CODE >1193:C:\Users\bedoa\AppData\Local\Temp\s3co.
+2C cinit CODE >1194:C:\Users\bedoa\AppData\Local\Temp\s3co.
+2D cinit CODE >1195:C:\Users\bedoa\AppData\Local\Temp\s3co.
+2E cinit CODE >1198:C:\Users\bedoa\AppData\Local\Temp\s3co.
+2F cinit CODE >1199:C:\Users\bedoa\AppData\Local\Temp\s3co.
+30 cinit CODE >1200:C:\Users\bedoa\AppData\Local\Temp\s3co.
+31 cinit CODE >1206:C:\Users\bedoa\AppData\Local\Temp\s3co.
+31 cinit CODE >1208:C:\Users\bedoa\AppData\Local\Temp\s3co.
+32 cinit CODE >1209:C:\Users\bedoa\AppData\Local\Temp\s3co.
+4 intentry CODE >11:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F3D text29 CODE >11:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F3D text29 CODE >14:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F3F text29 CODE >16:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F40 text29 CODE >17:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F4E text29 CODE >18:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F5C text29 CODE >20:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+F06 text28 CODE >8:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F06 text28 CODE >10:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F09 text28 CODE >12:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F0C text28 CODE >13:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F0D text28 CODE >14:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F10 text28 CODE >17:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F13 text28 CODE >18:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F14 text28 CODE >19:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F15 text28 CODE >22:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F18 text28 CODE >25:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F19 text28 CODE >26:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F1A text28 CODE >27:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F1B text28 CODE >28:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F1C text28 CODE >30:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F1F text28 CODE >33:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+F20 text28 CODE >34:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+E95 text27 CODE >9:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+E95 text27 CODE >11:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+E98 text27 CODE >12:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+F21 text26 CODE >5:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F21 text26 CODE >7:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F24 text26 CODE >8:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F25 text26 CODE >9:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F26 text26 CODE >10:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F27 text26 CODE >11:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F28 text26 CODE >12:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F29 text26 CODE >13:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F2A text26 CODE >14:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F2B text26 CODE >15:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F2C text26 CODE >16:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F2D text26 CODE >17:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F2E text26 CODE >18:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F2F text26 CODE >19:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F30 text26 CODE >20:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F31 text26 CODE >21:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F34 text26 CODE >22:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F35 text26 CODE >23:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F36 text26 CODE >24:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F37 text26 CODE >25:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F38 text26 CODE >26:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F39 text26 CODE >27:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F3A text26 CODE >28:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F3B text26 CODE >29:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+F3C text26 CODE >30:D:\workspace\pic\ElectricWaterHeater1.X\DIO.c
+EED text25 CODE >50:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EED text25 CODE >53:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EEE text25 CODE >55:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EEE text25 CODE >56:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EF2 text25 CODE >58:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EF4 text25 CODE >60:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EF5 text25 CODE >61:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EF5 text25 CODE >62:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EF9 text25 CODE >64:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EFA text25 CODE >65:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EFC text25 CODE >71:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EFD text25 CODE >53:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F05 text25 CODE >72:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F96 text24 CODE >74:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F96 text24 CODE >77:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F97 text24 CODE >79:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F97 text24 CODE >80:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F9B text24 CODE >82:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F9D text24 CODE >84:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F9E text24 CODE >85:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+F9E text24 CODE >86:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FA2 text24 CODE >88:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FA3 text24 CODE >89:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FA5 text24 CODE >94:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FA6 text24 CODE >77:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FAE text24 CODE >95:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FAF text24 CODE >97:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FAF text24 CODE >98:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FB3 text24 CODE >100:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FB5 text24 CODE >102:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FB6 text24 CODE >103:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FB6 text24 CODE >104:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FBA text24 CODE >106:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FBB text24 CODE >107:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FBD text24 CODE >112:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FBE text24 CODE >95:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+FC6 text24 CODE >113:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EAA text23 CODE >153:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EAA text23 CODE >155:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EAD text23 CODE >156:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EAE text23 CODE >157:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EAF text23 CODE >158:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EB0 text23 CODE >159:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EB1 text23 CODE >160:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EB2 text23 CODE >161:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EB3 text23 CODE >162:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+54E text22 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+54E text22 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+558 text22 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+55F text22 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+563 text22 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+56B text22 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+570 text22 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+574 text22 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+57E text22 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+586 text22 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+586 text22 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+58B text22 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+58D text22 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+595 text22 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+59B text22 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+59D text22 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+5A3 text22 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+5A5 text22 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+5B7 text22 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+5BA text22 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+5BB text22 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+38B text21 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+38B text21 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+39C text21 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3A3 text21 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3B2 text21 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3B9 text21 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3BF text21 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3C4 text21 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3D6 text21 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3E8 text21 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3EC text21 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3ED text21 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3F3 text21 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3F4 text21 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3FA text21 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+3FE text21 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+406 text21 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+412 text21 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+41C text21 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+41D text21 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+425 text21 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+429 text21 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+443 text20 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+443 text20 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+454 text20 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+45D text20 CODE >51:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+46F text20 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+470 text20 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+476 text20 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+47D text20 CODE >55:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+47F text20 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+481 text20 CODE >57:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+486 text20 CODE >58:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+48F text20 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+498 text20 CODE >61:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+49F text20 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4A3 text20 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4AC text20 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4B5 text20 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4B7 text20 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4B7 text20 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4BA text20 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4BD text20 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+4C8 text20 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+F67 text19 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+F67 text19 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+F6D text19 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+F71 text19 CODE >42:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+F7A text19 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+F7E text19 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+F7F text19 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+17C text18 CODE >115:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+17C text18 CODE >117:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+17F text18 CODE >119:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+187 text18 CODE >120:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+18F text18 CODE >124:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1B2 text18 CODE >125:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1B8 text18 CODE >126:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1BC text18 CODE >128:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1BD text18 CODE >129:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1C2 text18 CODE >131:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1E9 text18 CODE >129:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+1F5 text18 CODE >133:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+248 text18 CODE >135:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+27A text18 CODE >137:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+27B text18 CODE >138:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+27C text18 CODE >139:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+27D text18 CODE >140:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+27E text18 CODE >141:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+27F text18 CODE >143:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+2B1 text18 CODE >145:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+2B4 text18 CODE >146:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+2B5 text18 CODE >147:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+2B6 text18 CODE >148:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+2B7 text18 CODE >150:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+5BC text17 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5BC text17 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5BF text17 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5C1 text17 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5C6 text17 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5C8 text17 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5CA text17 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5CF text17 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5D3 text17 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5D5 text17 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5D9 text17 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5DB text17 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5DD text17 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5E4 text17 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5E8 text17 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5E9 text17 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5F0 text17 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5F8 text17 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5FE text17 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+5FF text17 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+606 text17 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+60A text17 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+60D text17 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+612 text17 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+713 text16 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+713 text16 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+714 text16 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+718 text16 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+71D text16 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+71F text16 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+721 text16 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+726 text16 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+72A text16 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+72C text16 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+72E text16 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+735 text16 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+739 text16 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+73A text16 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+742 text16 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+748 text16 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+74F text16 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+753 text16 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+756 text16 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+75B text16 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+FC7 text15 CODE >14:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FC8 text15 CODE >16:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FC9 text15 CODE >19:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FCB text15 CODE >21:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FCD text15 CODE >23:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FCF text15 CODE >25:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FD1 text15 CODE >27:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FD3 text15 CODE >29:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FD5 text15 CODE >31:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FD7 text15 CODE >33:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FD9 text15 CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FDB text15 CODE >37:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FDD text15 CODE >39:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FDE text15 CODE >40:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FDF text15 CODE >16:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+FFF text15 CODE >41:D:\workspace\pic\ElectricWaterHeater1.X\display7s.c
+671 text14 CODE >30:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+674 text14 CODE >32:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+675 text14 CODE >33:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+676 text14 CODE >34:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+691 text14 CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+69B text14 CODE >36:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+69E text14 CODE >37:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+69F text14 CODE >38:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+6BA text14 CODE >39:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+6C5 text14 CODE >40:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EB4 text13 CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+EB4 text13 CODE >37:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+EB8 text13 CODE >39:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+EB9 text13 CODE >40:D:\workspace\pic\ElectricWaterHeater1.X\ADC.c
+2B8 text12 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2B8 text12 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2C9 text12 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2D0 text12 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2DF text12 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2E6 text12 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2EB text12 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+2FD text12 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+30F text12 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+313 text12 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+314 text12 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+315 text12 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+31B text12 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+321 text12 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+325 text12 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+327 text12 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+335 text12 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+33D text12 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+345 text12 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+349 text12 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+34D text12 CODE >145:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+34F text12 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+35D text12 CODE >147:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+365 text12 CODE >148:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+36D text12 CODE >149:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+371 text12 CODE >156:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+7E8 text11 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+7E8 text11 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+4D1 text10 CODE >42:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+4D1 text10 CODE >44:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+4DC text10 CODE >45:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+51E text10 CODE >46:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+54D text10 CODE >48:D:\workspace\pic\ElectricWaterHeater1.X\HAL.c
+EC0 text9 CODE >22:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC0 text9 CODE >24:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC1 text9 CODE >26:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC2 text9 CODE >28:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC3 text9 CODE >29:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC4 text9 CODE >30:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC7 text9 CODE >31:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC8 text9 CODE >32:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EC9 text9 CODE >34:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+ECA text9 CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+ECB text9 CODE >36:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+ECC text9 CODE >37:D:\workspace\pic\ElectricWaterHeater1.X\Timer.c
+EA1 text8 CODE >14:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA1 text8 CODE >17:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA2 text8 CODE >18:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA3 text8 CODE >19:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA4 text8 CODE >20:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA5 text8 CODE >21:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA6 text8 CODE >22:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA7 text8 CODE >23:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA8 text8 CODE >24:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA9 text8 CODE >26:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6C6 text7 CODE >71:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6C9 text7 CODE >74:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6CA text7 CODE >76:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6CB text7 CODE >77:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6CE text7 CODE >78:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6D1 text7 CODE >79:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6D6 text7 CODE >80:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6D6 text7 CODE >81:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6D7 text7 CODE >82:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6DC text7 CODE >83:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6EF text7 CODE >84:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6F0 text7 CODE >79:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6F8 text7 CODE >86:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+6FB text7 CODE >87:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+700 text7 CODE >88:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+702 text7 CODE >89:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+702 text7 CODE >90:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+703 text7 CODE >91:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+708 text7 CODE >92:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+70B text7 CODE >93:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+70E text7 CODE >94:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+711 text7 CODE >96:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+ECD text6 CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+ECD text6 CODE >37:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+ED0 text6 CODE >38:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+ED1 text6 CODE >39:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+ED6 text6 CODE >40:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+ED9 text6 CODE >41:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EDC text6 CODE >42:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EDD text5 CODE >44:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EDD text5 CODE >46:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EE0 text5 CODE >47:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EE1 text5 CODE >48:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EE6 text5 CODE >49:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EE9 text5 CODE >50:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EEC text5 CODE >51:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7A9 text4 CODE >53:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7AC text4 CODE >56:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7AD text4 CODE >57:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7B2 text4 CODE >59:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7C7 text4 CODE >60:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7C8 text4 CODE >61:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7CD text4 CODE >62:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7D0 text4 CODE >57:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7D8 text4 CODE >64:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7D9 text4 CODE >65:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7DE text4 CODE >66:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7E1 text4 CODE >67:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7E4 text4 CODE >68:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+7E7 text4 CODE >69:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+760 text3 CODE >5:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+760 text3 CODE >11:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+767 text3 CODE >12:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+76B text3 CODE >14:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+770 text3 CODE >15:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+775 text3 CODE >17:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+777 text3 CODE >21:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+77D text3 CODE >23:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+785 text3 CODE >25:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+78A text3 CODE >26:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+78F text3 CODE >28:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+791 text3 CODE >32:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+797 text3 CODE >34:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+7A2 text3 CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+7A5 text3 CODE >37:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+617 text2 CODE >41:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+617 text2 CODE >48:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+620 text2 CODE >49:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+625 text2 CODE >50:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+629 text2 CODE >51:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+62A text2 CODE >55:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+62F text2 CODE >56:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+634 text2 CODE >58:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+636 text2 CODE >62:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+63C text2 CODE >64:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+644 text2 CODE >65:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+64C text2 CODE >66:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+651 text2 CODE >68:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+657 text2 CODE >70:D:\workspace\pic\ElectricWaterHeater1.X\eeprom_ext.c
+E99 text1 CODE >28:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+E99 text1 CODE >30:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+E9C text1 CODE >31:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+E9F text1 CODE >32:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+EA0 text1 CODE >33:D:\workspace\pic\ElectricWaterHeater1.X\i2c.c
+35 maintext CODE >25:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+35 maintext CODE >28:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+3A maintext CODE >29:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+3F maintext CODE >30:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+44 maintext CODE >31:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+49 maintext CODE >32:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+4E maintext CODE >34:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+60 maintext CODE >35:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+68 maintext CODE >38:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+70 maintext CODE >43:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+71 maintext CODE >46:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+76 maintext CODE >47:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+7B maintext CODE >48:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+80 maintext CODE >50:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+81 maintext CODE >51:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+86 maintext CODE >52:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+8C maintext CODE >53:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+8D maintext CODE >54:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+8E maintext CODE >55:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+93 maintext CODE >57:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+95 maintext CODE >58:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+9D maintext CODE >59:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+9E maintext CODE >60:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+9F maintext CODE >61:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+A0 maintext CODE >64:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+A5 maintext CODE >65:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+AE maintext CODE >76:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+B3 maintext CODE >78:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+BB maintext CODE >80:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+C1 maintext CODE >82:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+C4 maintext CODE >84:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+C8 maintext CODE >86:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+D0 maintext CODE >88:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+DA maintext CODE >89:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+DB maintext CODE >90:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+DC maintext CODE >92:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+E2 maintext CODE >94:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+E8 maintext CODE >96:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+EB maintext CODE >98:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+EF maintext CODE >100:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+F7 maintext CODE >103:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+101 maintext CODE >104:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+102 maintext CODE >111:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+111 maintext CODE >113:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+112 maintext CODE >114:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+123 maintext CODE >115:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+12D maintext CODE >118:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+135 maintext CODE >119:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+13A maintext CODE >120:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+14B maintext CODE >122:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+150 maintext CODE >123:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+15A maintext CODE >127:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+15B maintext CODE >130:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+160 maintext CODE >132:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+165 maintext CODE >134:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+166 maintext CODE >135:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+167 maintext CODE >136:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+168 maintext CODE >138:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+169 maintext CODE >140:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+16E maintext CODE >43:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+17B maintext CODE >41:D:\workspace\pic\ElectricWaterHeater1.X\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_Down_switch 69 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___latbits 2 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+___awdiv@counter 24 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 2008 0 ABS 0 - -
+__Hspace_1 D4 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__end_of_DisplaySevenSegment_init 1D32 0 CODE 0 text27 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_Task_vidGetTemp A9C 0 CODE 0 text10 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv@exp 47 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_displaySevenSegment 1F8E 0 CODE 0 text15 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_i2c_init 1D32 0 CODE 0 text1 dist/default/production\ElectricWaterHeater1.X.production.obj
+_i2c_stop 1DBA 0 CODE 0 text5 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+_Temp D3 0 BANK1 1 nvBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+_main 6A 0 CODE 0 maintext dist/default/production\ElectricWaterHeater1.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+start 24 0 CODE 0 init C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+__end_of_Ndelay 1D54 0 CODE 0 text8 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_i2c_init 1D42 0 CODE 0 text1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_i2c_stop 1DDA 0 CODE 0 text5 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__size_of_HW_init 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_TASK_vidReadUPDOWNSwitch 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_OPTION_REGbits 81 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv@f1 3C 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv@f2 39 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv@f3 44 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+u8_ReadExternalEEPROM@ret 25 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__Hpowerup 0 0 CODE 0 powerup -
+___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_Vid_WriteExternalEEPROM 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_ADC_Init 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_ADC_Read 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_Task_vidGetTemp 9A2 0 CODE 0 text10 dist/default/production\ElectricWaterHeater1.X.production.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+wtemp0 7E 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_Timer0_init 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+_ElectricHeaterCurrentState 6D 0 BANK0 1 dataBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___awdiv@sign 25 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+___ftmul@f1 29 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftmul@f2 2C 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_ADRESH 1E 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_ADRESL 9E 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+___awdiv@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_TASK_vidReadOnOffSwitch 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_TASK_vidSwitchOFFALLPeripherals 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_u8_ReadExternalEEPROM F52 0 CODE 0 text3 dist/default/production\ElectricWaterHeater1.X.production.obj
+u8_ReadExternalEEPROM@addr 23 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_displaySevenSegment 2000 0 CODE 0 text15 dist/default/production\ElectricWaterHeater1.X.production.obj
+___fttol@f1 49 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_i2c_start 1DBA 0 CODE 0 text6 dist/default/production\ElectricWaterHeater1.X.production.obj
+_ADC_Init 1E0C 0 CODE 0 text28 dist/default/production\ElectricWaterHeater1.X.production.obj
+_ADC_Read 1D68 0 CODE 0 text13 dist/default/production\ElectricWaterHeater1.X.production.obj
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+___awdiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_i2c_start 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___awdiv C2E 0 CODE 0 text17 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___awmod EC0 0 CODE 0 text16 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___ftdiv 886 0 CODE 0 text21 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___ftmul 716 0 CODE 0 text12 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___fttol 9A2 0 CODE 0 text20 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_TASK_vidReadUPDOWNSwitch 1F8E 0 CODE 0 text24 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_HW_init 1E7A 0 CODE 0 text26 dist/default/production\ElectricWaterHeater1.X.production.obj
+_u8_ReadExternalEEPROM EC0 0 CODE 0 text3 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_ADC_Init 1E42 0 CODE 0 text28 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_ADC_Read 1D80 0 CODE 0 text13 dist/default/production\ElectricWaterHeater1.X.production.obj
+_Time_out 5E 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_i2c_start 1D9A 0 CODE 0 text6 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_i2c_rb E26 0 CODE 0 text7 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_i2c_wb FD0 0 CODE 0 text4 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___lltoft 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of___lwtoft 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+start_initialization 2A 0 CODE 0 cinit dist/default/production\ElectricWaterHeater1.X.production.obj
+_Ndelay 1D42 0 CODE 0 text8 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_Task_vidGetTemp 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_TRISAbits 85 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_TRISBbits 86 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_TRISCbits 87 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+i2c_rb@i 22 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+i2c_wb@i 21 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_ChangeMode 68 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_Task_vidDisplayTemp 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+___fttol@exp1 56 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___fttol@lval 52 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___lltoft@c 25 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+TASK_vidWaterConditioning@AvgTemp CC 0 BANK1 1 cstackBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftpack A9C 0 CODE 0 text22 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftpack@arg 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftpack@exp 23 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+__end_of___ftpack B78 0 CODE 0 text22 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 6A 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+_UpSwitch_State 78 0 COMMON 1 bssCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__size_of_Ndelay 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+___lltoft 1ECE 0 CODE 0 text19 dist/default/production\ElectricWaterHeater1.X.production.obj
+Task_vidDisplayTemp@u8Temprature 2A 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 0 config -
+___lwtoft FD0 0 CODE 0 text11 dist/default/production\ElectricWaterHeater1.X.production.obj
+_u16DigitalRead 6B 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit 2A 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+_SetTempCount 62 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lstack 0 0 STACK 2 stack -
+TASK_vidWaterConditioning@i D1 0 BANK1 1 bssBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+TASK_vidWaterConditioning@j D0 0 BANK1 1 cstackBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___lltoft 1F2C 0 CODE 0 text19 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of___lwtoft 1000 0 CODE 0 text11 dist/default/production\ElectricWaterHeater1.X.production.obj
+_PORTAbits 5 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_PORTBbits 6 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_PORTCbits 7 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_Task_vidDisplayTemp CE2 0 CODE 0 text14 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 24 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 24 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__pnvBANK1 D3 0 BANK1 1 nvBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+_DownSwitch_State 77 0 COMMON 1 bssCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_Timer0_init 1D80 0 CODE 0 text9 dist/default/production\ElectricWaterHeater1.X.production.obj
+_ISR 1E7A 0 CODE 0 text29 dist/default/production\ElectricWaterHeater1.X.production.obj
+__S0 2008 0 ABS 0 - -
+__S1 D4 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+Vid_WriteExternalEEPROM@addr 28 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?_ADC_Read 74 0 COMMON 1 cstackCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+saved_w 7E 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_u16AnalogeRead 66 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+displaySevenSegment@v 74 0 COMMON 1 cstackCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_ISR 1ECE 0 CODE 0 text29 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_TASK_vidWaterConditioning 570 0 CODE 0 text18 dist/default/production\ElectricWaterHeater1.X.production.obj
+_i2c_rb D8C 0 CODE 0 text7 dist/default/production\ElectricWaterHeater1.X.production.obj
+_i2c_wb F52 0 CODE 0 text4 dist/default/production\ElectricWaterHeater1.X.production.obj
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+_UP_Switch 6A 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pdataBANK0 6D 0 BANK0 1 dataBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+_DisplaySevenSegment_init 1D2A 0 CODE 0 text27 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_TASK_vidSwitchOFFALLPeripherals 1D68 0 CODE 0 text23 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext10 9A2 0 CODE 0 text10 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext11 FD0 0 CODE 0 text11 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext12 570 0 CODE 0 text12 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext13 1D68 0 CODE 0 text13 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext14 CE2 0 CODE 0 text14 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext15 1F8E 0 CODE 0 text15 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext16 E26 0 CODE 0 text16 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext17 B78 0 CODE 0 text17 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext18 2F8 0 CODE 0 text18 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext19 1ECE 0 CODE 0 text19 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext20 886 0 CODE 0 text20 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext21 716 0 CODE 0 text21 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext22 A9C 0 CODE 0 text22 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext23 1D54 0 CODE 0 text23 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext24 1F2C 0 CODE 0 text24 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext25 1DDA 0 CODE 0 text25 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext26 1E42 0 CODE 0 text26 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext27 1D2A 0 CODE 0 text27 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext28 1E0C 0 CODE 0 text28 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext29 1E7A 0 CODE 0 text29 dist/default/production\ElectricWaterHeater1.X.production.obj
+i2c_rb@ack 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+i2c_rb@ret 21 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___awdiv B78 0 CODE 0 text17 dist/default/production\ElectricWaterHeater1.X.production.obj
+___awmod E26 0 CODE 0 text16 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv 716 0 CODE 0 text21 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftmul 570 0 CODE 0 text12 dist/default/production\ElectricWaterHeater1.X.production.obj
+___fttol 886 0 CODE 0 text20 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pmaintext 6A 0 CODE 0 maintext dist/default/production\ElectricWaterHeater1.X.production.obj
+_Vid_WriteExternalEEPROM C2E 0 CODE 0 text2 dist/default/production\ElectricWaterHeater1.X.production.obj
+_HW_init 1E42 0 CODE 0 text26 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 400E 0 CONFIG 0 config -
+?___ftpack 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_Vid_WriteExternalEEPROM CE2 0 CODE 0 text2 dist/default/production\ElectricWaterHeater1.X.production.obj
+TASK_vidWaterConditioning@AllSum C8 0 BANK1 1 cstackBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_i2c_rb 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_i2c_wb 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+i2c_wb@val 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_Task_vidDisplayTemp D8C 0 CODE 0 text14 dist/default/production\ElectricWaterHeater1.X.production.obj
+___lwtoft@c 25 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_u8_ReadExternalEEPROM 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+stacklo 0 0 ABS 0 - C:\Users\bedoa\AppData\Local\Temp\s3co.obj
+?___lltoft 25 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?___lwtoft 25 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_ADCON0bits 1F 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_ADCON1bits 9F 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+___ftmul@cntr 37 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pbssCOMMON 77 0 COMMON 1 bssCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftmul@sign 38 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_TASK_vidWaterConditioning 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+_TASK_vidReadOnOffSwitch 1DDA 0 CODE 0 text25 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lend_init 24 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_TASK_vidReadOnOffSwitch 1E0C 0 CODE 0 text25 dist/default/production\ElectricWaterHeater1.X.production.obj
+end_of_initialization 62 0 CODE 0 cinit dist/default/production\ElectricWaterHeater1.X.production.obj
+_OnOffSwitch_State 79 0 COMMON 1 bssCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hintentry 24 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 26 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?___awdiv 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?___awmod 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?___ftdiv 39 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?___ftmul 29 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+?___fttol 49 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_CurrentTemp D2 0 BANK1 1 bssBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+___awmod@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___lltoft@exp 2A 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext1 1D32 0 CODE 0 text1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext2 C2E 0 CODE 0 text2 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext3 EC0 0 CODE 0 text3 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext4 F52 0 CODE 0 text4 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext5 1DBA 0 CODE 0 text5 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext6 1D9A 0 CODE 0 text6 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext7 D8C 0 CODE 0 text7 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext8 1D42 0 CODE 0 text8 dist/default/production\ElectricWaterHeater1.X.production.obj
+__ptext9 1D80 0 CODE 0 text9 dist/default/production\ElectricWaterHeater1.X.production.obj
+TASK_vidWaterConditioning@SumTemp A0 0 BANK1 1 cstackBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+Vid_WriteExternalEEPROM@tmp 30 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+Vid_WriteExternalEEPROM@val 2A 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftmul@exp 33 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of__initialization 62 0 CODE 0 cinit dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_DisplaySevenSegment_init 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+___awmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+_TASK_vidReadUPDOWNSwitch 1F2C 0 CODE 0 text24 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pidataBANK0 6 0 CODE 0 idataBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+___ftpack@sign 24 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_Timer0_init 1D9A 0 CODE 0 text9 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv@cntr 43 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftdiv@sign 48 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hend_init 2A 0 CODE 0 end_init -
+Vid_WriteExternalEEPROM@ah 2D 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+Vid_WriteExternalEEPROM@al 2E 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+Vid_WriteExternalEEPROM@nt 2F 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__end_of_main 2F8 0 CODE 0 maintext dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_i2c_init 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_i2c_stop 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_PORTD 8 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_TRISD 88 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+_TASK_vidWaterConditioning 2F8 0 CODE 0 text18 dist/default/production\ElectricWaterHeater1.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+interrupt_function 8 0 CODE 0 intentry dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_displaySevenSegment 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/default/production\ElectricWaterHeater1.X.production.obj
+___fttol@sign1 51 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__size_of_ISR 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__initialization 2A 0 CODE 0 cinit dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+__pbssBANK0 5E 0 BANK0 1 bssBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+__pbssBANK1 D1 0 BANK1 1 bssBANK1 dist/default/production\ElectricWaterHeater1.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\ElectricWaterHeater1.X.production.obj
+u8_ReadExternalEEPROM@ah 27 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+u8_ReadExternalEEPROM@al 26 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+_TASK_vidSwitchOFFALLPeripherals 1D54 0 CODE 0 text23 dist/default/production\ElectricWaterHeater1.X.production.obj
+___ftmul@f3_as_product 34 0 BANK0 1 cstackBANK0 dist/default/production\ElectricWaterHeater1.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 E99 1D32 8 2
+text5 0 EDD 1DBA 10 2
+text6 0 ECD 1D9A 10 2
+text8 0 EA1 1D42 9 2
+text9 0 EC0 1D80 D 2
+text13 0 EB4 1D68 C 2
+text15 0 FC7 1F8E 39 2
+text19 0 F67 1ECE 2F 2
+text23 0 EAA 1D54 A 2
+text24 0 F96 1F2C 31 2
+text25 0 EED 1DDA 19 2
+text26 0 F21 1E42 1C 2
+text27 0 E95 1D2A 4 2
+text28 0 F06 1E0C 1B 2
+text29 0 F3D 1E7A 2A 2
+cstackCOMMON 1 70 70 A 1
+cstackBANK0 1 20 20 4E 1
+cstackBANK1 1 A0 A0 34 1
+intentry 0 4 8 7FC 2
+reset_vec 0 0 0 4 2
+config 0 2007 400E 1 2
